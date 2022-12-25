@@ -6,7 +6,7 @@ from flask import Flask, request, render_template
 # Instantiate the app
 app = Flask(__name__)
 
-openai.api_key = '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'
+openai.api_key = 'YOUR-API-KEY'
 
 def chat_gpt(prompt):
     response = openai.Completion.create(
